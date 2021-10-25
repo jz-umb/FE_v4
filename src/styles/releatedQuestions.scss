@@ -1,0 +1,12 @@
+.releated-questions {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px #000;
+    .adm-list-inner {
+        max-height: 20rem;
+        overflow: scroll;
+    }
+}
